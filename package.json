@@ -4,7 +4,7 @@
   "displayName": "Addressables BuildLayout Explorer",
   "description": "Addressables BuildLayout Explorer allows you to inspect the 'buildlayout.txt' file that Addressables generates when building content.\n\nYou can open the Addressables BuildLayout Explorer window from the main-menu under 'Window > Asset Management > Addressables > BuildLayout Explorer'.",
   "unity": "2019.3",
-  "documentationUrl": "https://github.com/pschraut/UnityAddressablesBuildLayoutExplorer",
+  "documentationUrl": "https://github.com/dommrogers/UnityAddressablesBuildLayoutExplorer",
   "dependencies": {
   },
   "keywords": [
@@ -18,6 +18,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pschraut/UnityAddressablesBuildLayoutExplorer.git"
+    "url": "https://github.com/dommrogers/UnityAddressablesBuildLayoutExplorer.git"
   }
 }
