@@ -498,7 +498,7 @@ namespace Oddworm.EditorFramework
                     // Size from Streamed Data: 170.68KB
                     // File Index: 0
                     // Addressable Name: Assets/art/debug/debug_checkerboard.png
-                    foreach (var entry in line.Split(new[] { ', ' }, System.StringSplitOptions.RemoveEmptyEntries))
+                    foreach (var entry in line.Split(", ", System.StringSplitOptions.RemoveEmptyEntries))
                     {
                         // entry contains:
                         // Total Size: 170.88KB
@@ -578,7 +578,7 @@ namespace Oddworm.EditorFramework
                 bundlesLine = bundlesLine.Trim();
 
                 var bundles = new List<string>();
-                foreach (var b in bundlesLine.Split(new[] { ',' }, System.StringSplitOptions.RemoveEmptyEntries))
+                foreach (var b in bundlesLine.Split(", ", System.StringSplitOptions.RemoveEmptyEntries))
                     bundles.Add(b.Trim());
 
                 bundles.Sort();
